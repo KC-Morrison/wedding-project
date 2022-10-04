@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+	background-color: antiquewhite;
+}
+
+.illustration {
+	max-height: 500px;
+}
+
+h1,
+h2 {
+	font-family: "Playfair Display", serif;
+}
