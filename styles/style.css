@@ -10,4 +10,9 @@ body {
 h1,
 h2 {
 	font-family: "Playfair Display", serif;
+	color: #4d6780;
+}
+
+h1 {
+	line-height: 1.5;
 }
