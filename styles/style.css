@@ -18,5 +18,12 @@ h1 {
 }
 
 .wedding-party img {
-	max-height: 500px;
+	max-height: 400px;
+}
+
+.wedding-party p {
+	text-align: left;
+}
+.wedding-party .row {
+	align-items: center;
 }
