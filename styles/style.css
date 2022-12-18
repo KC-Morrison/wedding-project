@@ -1,6 +1,7 @@
 body {
 	text-align: center;
-	background-color: antiquewhite;
+	background-color: #206a5d;
+	color: #fff;
 }
 
 .illustration {
@@ -10,11 +11,18 @@ body {
 h1,
 h2 {
 	font-family: "Playfair Display", serif;
-	color: #4d6780;
 }
 
 h1 {
 	line-height: 1.5;
+}
+
+.hompegage {
+	background-color: #206a5d;
+}
+
+.wedding-party h1 {
+	font-size: 30px;
 }
 
 .wedding-party img {
@@ -23,7 +31,17 @@ h1 {
 
 .wedding-party p {
 	text-align: left;
+	font-size: 24px;
 }
 .wedding-party .row {
 	align-items: center;
+}
+
+.countdown p {
+	display: inline;
+}
+
+.wedding-party {
+	background-color: #206a5d;
+	color: #f2deba;
 }
