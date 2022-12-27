@@ -1,11 +1,13 @@
-body {
-	text-align: center;
-	background-color: #206a5d;
-	color: #fff;
+:root {
+	--branding-color: #1c5e54;
+	--secondary-color: #fcf8f4;
+	--heading-font-family: "Playfair Display", serif;
+	--default-font-family: "Poppins", sans-serif;
 }
 
-.illustration {
-	max-height: 500px;
+body {
+	background-color: #206a5d;
+	color: #fff;
 }
 
 h1,
@@ -17,10 +19,6 @@ h1 {
 	line-height: 1.5;
 }
 
-table {
-	margin: 0 auto;
-	text-align: left;
-}
 tr {
 	border: #257062 solid 1px;
 }
@@ -29,8 +27,26 @@ td {
 	padding: 5px;
 }
 
+a {
+	color: white;
+}
+
 .hompegage {
 	background-color: #206a5d;
+}
+
+.homepageBody {
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.illustration {
+	max-height: 500px;
+}
+
+.countdown p {
+	display: inline;
 }
 
 .wedding-party h1 {
@@ -49,11 +65,12 @@ td {
 	align-items: center;
 }
 
-.countdown p {
-	display: inline;
-}
-
 .wedding-party {
 	background-color: #206a5d;
 	color: #f2deba;
+}
+
+.bigDayBody {
+	max-width: 700px;
+	margin: 0 auto;
 }
