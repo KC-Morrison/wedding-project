@@ -8,6 +8,7 @@
 body {
 	background-color: var(--branding-color);
 	color: var(--secondary-color);
+	font-family: var(--default-font-family);
 }
 
 h1,
@@ -17,10 +18,11 @@ h2 {
 
 h1 {
 	line-height: 1.5;
+	font-size: 96px;
 }
 
 tr {
-	border: #257062 solid 1px;
+	border: white solid 1px;
 }
 
 td {
@@ -30,6 +32,8 @@ td {
 a {
 	color: var(--secondary-color);
 }
+
+/*homepage*/
 
 .hompegage {
 	background-color: var(--branding-color);
@@ -48,6 +52,8 @@ a {
 .countdown p {
 	display: inline;
 }
+
+/*wedding party*/
 
 .wedding-party h1 {
 	font-size: 30px;
@@ -70,7 +76,27 @@ a {
 	color: var(--secondary-color);
 }
 
+/*Big day*/
+
+.bigDayHero {
+	text-align: center;
+}
+
+.bigDayHero h1 {
+}
+
 .bigDayBody {
+	background-color: var(--secondary-color);
+	color: var(--branding-color);
+}
+
+.bigDayContent {
 	max-width: 700px;
 	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+	h1 {
+		font-size: 60px;
+	}
 }
