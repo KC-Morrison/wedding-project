@@ -21,6 +21,13 @@ table {
 	margin: 0 auto;
 	text-align: left;
 }
+tr {
+	border: #257062 solid 1px;
+}
+
+td {
+	padding: 5px;
+}
 
 .hompegage {
 	background-color: #206a5d;
