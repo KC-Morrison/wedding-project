@@ -6,13 +6,13 @@
 }
 
 body {
-	background-color: #206a5d;
-	color: #fff;
+	background-color: var(--branding-color);
+	color: var(--secondary-color);
 }
 
 h1,
 h2 {
-	font-family: "Playfair Display", serif;
+	font-family: var(--heading-font-family);
 }
 
 h1 {
@@ -28,11 +28,11 @@ td {
 }
 
 a {
-	color: white;
+	color: var(--secondary-color);
 }
 
 .hompegage {
-	background-color: #206a5d;
+	background-color: var(--branding-color);
 }
 
 .homepageBody {
@@ -66,8 +66,8 @@ a {
 }
 
 .wedding-party {
-	background-color: #206a5d;
-	color: #f2deba;
+	background-color: var(--branding-color);
+	color: var(--secondary-color);
 }
 
 .bigDayBody {
