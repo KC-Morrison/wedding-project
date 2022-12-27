@@ -21,8 +21,15 @@ h1 {
 	font-size: 96px;
 }
 
+h4 {
+	margin: 12px 0 3px 0;
+}
+table {
+	margin: -5px;
+}
+
 tr {
-	border: white solid 1px;
+	border: var(--primary-color) solid 1px;
 }
 
 td {
@@ -30,6 +37,10 @@ td {
 }
 
 a {
+	color: var(--primary-color);
+}
+
+.navSection a {
 	color: var(--secondary-color);
 }
 
@@ -80,9 +91,7 @@ a {
 
 .bigDayHero {
 	text-align: center;
-}
-
-.bigDayHero h1 {
+	padding: 60px 20px;
 }
 
 .bigDayBody {
@@ -93,10 +102,14 @@ a {
 .bigDayContent {
 	max-width: 700px;
 	margin: 0 auto;
+	padding: 20px;
 }
 
 @media (max-width: 960px) {
 	h1 {
 		font-size: 60px;
+	}
+	.bigDayHero {
+		padding: 30px 20px;
 	}
 }
