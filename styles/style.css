@@ -40,10 +40,31 @@ a {
 	color: var(--primary-color);
 }
 
-.navSection a {
-	color: var(--secondary-color);
+/*nav*/
+
+.navSection {
+	background-color: var(--secondary-color);
+	width: 100%;
 }
 
+nav {
+	padding: 20px;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.navSection a {
+	color: var(--branding-color);
+	text-decoration: none;
+	transition: all 100ms ease-in-out;
+	padding: 8px;
+}
+
+.navSection a:hover,
+.navSection .active {
+	color: var(--branding-color);
+	text-decoration: underline;
+}
 /*homepage*/
 
 .hompegage {
