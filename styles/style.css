@@ -25,7 +25,8 @@ h4 {
 	margin: 12px 0 3px 0;
 }
 table {
-	margin: -5px;
+	margin-left: -5px;
+	margin-bottom: 16px;
 }
 
 tr {
