@@ -131,7 +131,9 @@ nav {
 	.hero {
 		padding: 30px 20px;
 	}
-
+	nav {
+		padding: 20px 10px;
+	}
 	.navSection {
 		text-align: center;
 	}
