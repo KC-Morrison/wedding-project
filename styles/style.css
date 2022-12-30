@@ -100,6 +100,11 @@ nav {
 	align-items: center;
 }
 
+.col-md-6 {
+	display: flex;
+	justify-content: center;
+}
+
 /*Big day*/
 
 .hero {
