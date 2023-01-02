@@ -41,6 +41,13 @@ a {
 	color: var(--primary-color);
 }
 
+footer {
+	background-color: var(--branding-color);
+	color: var(--secondary-color);
+	text-align: center;
+	font-size: 14px;
+}
+
 /*nav*/
 
 .navSection {
