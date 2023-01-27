@@ -135,12 +135,6 @@ nav {
 	padding: 20px;
 }
 
-/*events*/
-.tail {
-	background-color: var(--secondary-color);
-	padding-bottom: 300px;
-}
-
 @media (max-width: 960px) {
 	h1 {
 		font-size: 60px;
